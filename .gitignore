@@ -1,0 +1,16 @@
+# 忽略虛擬環境資料夾
+FreeCADvenv/
+.venv/
+env/
+
+# 忽略所有 CAD 圖檔
+*.step
+*.stp
+
+# 忽略執行過程中產生的資料檔 (因為我們可以隨時用程式重新跑出來)
+*.json
+*.csv
+
+# 忽略 Python 暫存檔
+__pycache__/
+*.pyc
